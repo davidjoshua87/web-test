@@ -94,14 +94,12 @@ a.dotted-link:hover {
 .profile {
   display: inline-block;
   margin-top: -80px;
+  margin: 0 auto;
 }
 
 .click {
   display: inline-block;
-  float: right;
-  margin-right: 0;
-  margin-left: 400px;
-  margin-top: 30px;
+  margin: 0 inherit;
 }
 
 .header {
