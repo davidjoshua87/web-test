@@ -27,12 +27,9 @@ a:hover {
 
 .btn, a.btn {
   font-family: 'Montserrat', arial, sans-serif;
-  padding: 8px 16px;
+  padding: 6px 8px;
   font-weight: bold;
-}
-
-.btn .fa, a.btn .fa {
-  margin-right: 5px;
+  width: auto;
 }
 
 .btn:focus, a.btn:focus {
@@ -44,9 +41,10 @@ a.btn-cta-primary, .btn-cta-primary {
   border: 1px solid #54ba4e;
   color: #fff;
   font-weight: 600;
+  font-size: 12px;
   text-transform: uppercase;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
   border-radius: 15px;
 }
 
@@ -100,6 +98,7 @@ a.dotted-link:hover {
 .click {
   display: inline-block;
   margin: 0 inherit;
+  position: relative;
 }
 
 .header {
@@ -382,19 +381,15 @@ i {
   font-size: 14px;
   font-weight: 400;
   font-family: "Lato", arial, sans-serif;
-  position: absolute;
-  right: 0;
-  top: 0;
+  position: relative;
+  float: right;
 }
 
-.skills .skillset .level-bar {
-  height: 15px;
-  background: #e8e8e8;
-}
 
 .skills .skillset .level-bar-inner {
   height: 15px;
   background: #66cb8c;
+  width: auto;
 }
 
 /* Education section */
